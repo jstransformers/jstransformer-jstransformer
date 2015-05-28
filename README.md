@@ -6,7 +6,7 @@
 [![Coverage Status](https://img.shields.io/coveralls/jstransformers/jstransformer-jstransformer/master.svg)](https://coveralls.io/r/jstransformers/jstransformer-jstransformer?branch=master)
 [![NPM version](https://img.shields.io/npm/v/jstransformer-jstransformer.svg)](https://www.npmjs.org/package/jstransformer-jstransformer)
 
-[WAT?](https://duckduckgo.com/?q=wat&t=lm&iax=1&ia=images)
+![YO DAWG](screenshot.jpg?raw=true "YO DAWG")
 
 ## Installation
 
@@ -27,7 +27,7 @@ var locals = {
   title: 'Hello World!'
 }
 
-foo.render('<h1>{{title}}</h1>', options).body
+foo.render('<h1>{{title}}</h1>', options, locals).body
 //=> '<h1>Hello World!</h1>'
 ```
 
