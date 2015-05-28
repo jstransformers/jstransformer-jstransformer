@@ -1,15 +1,19 @@
 {
-  "name": "jstransformer-foo",
-  "version": "0.0.0",
-  "description": "Foo support for JSTransformers.",
+  "name": "jstransformer-jstransformer",
+  "version": "0.0.1",
+  "description": "JSTransformer support for JSTransformer.",
   "keywords": [
     "jstransformer"
   ],
   "files": [
     "index.js"
   ],
+  "dependencies": {
+    "jstransformer": "0.0.2"
+  },
   "devDependencies": {
     "istanbul": "^0.3.14",
+    "jstransformer-octet": "0.0.1",
     "testit": "^2.0.2"
   },
   "scripts": {
@@ -18,8 +22,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jstransformers/jstransformer-foo.git"
+    "url": "https://github.com/jstransformers/jstransformer-jstransformer.git"
   },
-  "author": "Your Name <email@example.com>",
+  "author": "Rob Loach <robloach@gmail.com>",
   "license": "MIT"
 }

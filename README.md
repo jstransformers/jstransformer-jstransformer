@@ -1,33 +1,34 @@
-# boilerplates
+# jstransformer-jstransformer
 
-This is a boilerplate for new transformers.
+[JSTransformer](http://github.com/jstransformers) support for [JSTransformers](http://github.com/jstransformers).
 
-What you need to do:
+[![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-jstransformer/master.svg)](https://travis-ci.org/jstransformers/jstransformer-jstransformer)
+[![Coverage Status](https://img.shields.io/coveralls/jstransformers/jstransformer-jstransformer/master.svg)](https://coveralls.io/r/jstransformers/jstransformer-jstransformer?branch=master)
+[![NPM version](https://img.shields.io/npm/v/jstransformer-jstransformer.svg)](https://www.npmjs.org/package/jstransformer-jstransformer)
 
-1. Add your name to `LICENSE.md` and `package.json`
-2. Activate Travis CI and Coveralls.
-3. Update module name in `package.json` and `README.md`
-4. Let the fun begin!
-
-# jstransformer-foo
-
-[Foo](http://example.com) support for [JSTransformers](http://github.com/jstransformers).
-
-[![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-foo/master.svg)](https://travis-ci.org/jstransformers/jstransformer-foo)
-[![Coverage Status](https://img.shields.io/coveralls/jstransformers/jstransformer-foo/master.svg)](https://coveralls.io/r/jstransformers/jstransformer-foo?branch=master)
-[![NPM version](https://img.shields.io/npm/v/jstransformer-foo.svg)](https://www.npmjs.org/package/jstransformer-foo)
+[WAT?](https://duckduckgo.com/?q=wat&t=lm&iax=1&ia=images)
 
 ## Installation
 
-    npm install jstransformer-foo
+    npm install jstransformer-jstransformer
 
 ## API
 
-```js
-var foo = require('jstransformer')(require('jstransformer-foo'))
+This example uses JSTransformers renders [Handlebars](http://handlebarsjs.com) through JSTransformers.
 
-foo.render('blah').body
-//=> 'blah'
+```js
+var foo = require('jstransformer')(require('jstransformer-jstransformer'))
+
+var options = {
+  jstransformer: 'handlebars'
+};
+
+var locals = {
+  title: 'Hello World!'
+}
+
+foo.render('<h1>{{title}}</h1>', options).body
+//=> '<h1>Hello World!</h1>'
 ```
 
 ## License
