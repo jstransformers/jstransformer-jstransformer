@@ -30,3 +30,7 @@ var constructTransformer = function (options) {
 exports.render = function (str, options, locals) {
   return constructTransformer(options).render(str, options, locals || {}).body;
 };
+
+exports.renderFile = function (file, options, locals) {
+  return constructTransformer(options).renderFile(file, options, locals || {}).body;
+};

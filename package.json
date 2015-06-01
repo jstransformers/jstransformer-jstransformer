@@ -1,6 +1,6 @@
 {
   "name": "jstransformer-jstransformer",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "JSTransformer support for JSTransformer.",
   "keywords": [
     "jstransformer"
@@ -12,13 +12,12 @@
     "jstransformer": "0.0.2"
   },
   "devDependencies": {
-    "istanbul": "^0.3.14",
     "jstransformer-octet": "0.0.1",
-    "testit": "^2.0.2"
+    "test-jstransformer": "^1.0.0"
   },
   "scripts": {
-    "test": "node test",
-    "coverage": "istanbul cover test"
+    "test": "test-jstransformer",
+    "coverage": "test-jstransformer coverage"
   },
   "repository": {
     "type": "git",
