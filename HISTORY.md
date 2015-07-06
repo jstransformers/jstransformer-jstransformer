@@ -2,6 +2,11 @@
 
 ## v1.0.0: 2015-07-06
 
+- Added async support
+- Fixed return value to support `dependencies`
+
+## v1.0.0: 2015-07-06
+
 - Renamed option to `engine`
 
 ## v0.1.0: 2015-06-01
