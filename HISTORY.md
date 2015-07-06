@@ -1,6 +1,6 @@
 # Changelog
 
-## v1.0.0: 2015-07-06
+## v1.1.0: 2015-07-06
 
 - Added async support
 - Fixed return value to support `dependencies`
