@@ -21,7 +21,7 @@ This example uses JSTransformers renders [Handlebars](http://handlebarsjs.com) t
 var foo = require('jstransformer')(require('jstransformer-jstransformer'))
 
 var options = {
-  jstransformer: 'handlebars'
+  engine: 'handlebars'
 };
 var locals = {
   title: 'Hello World!'

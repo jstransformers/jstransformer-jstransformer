@@ -12,11 +12,11 @@ var getTransform = function (options) {
   if (typeof options == "string" || options instanceof String) {
     return options;
   }
-  else if (typeof options == "object" && options.jstransformer) {
-    return options.jstransformer;
+  else if (typeof options == "object" && options.engine) {
+    return options.engine;
   }
   else {
-    throw new Error("options.jstransformer not found.");
+    throw new Error("options.engine not found.");
   }
 };
 

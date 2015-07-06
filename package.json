@@ -1,6 +1,6 @@
 {
   "name": "jstransformer-jstransformer",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "JSTransformer support for JSTransformer.",
   "keywords": [
     "jstransformer"
@@ -9,10 +9,10 @@
     "index.js"
   ],
   "dependencies": {
-    "jstransformer": "0.0.2"
+    "jstransformer": "^0.0.2"
   },
   "devDependencies": {
-    "jstransformer-octet": "0.0.1",
+    "jstransformer-octet": "^0.0.1",
     "test-jstransformer": "^1.0.0"
   },
   "scripts": {
