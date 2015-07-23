@@ -1,7 +1,7 @@
 {
   "name": "jstransformer-jstransformer",
-  "version": "1.1.0",
-  "description": "JSTransformer support for JSTransformer.",
+  "version": "1.1.1",
+  "description": "JSTransformer support for JSTransformers.",
   "keywords": [
     "jstransformer"
   ],
@@ -9,10 +9,10 @@
     "index.js"
   ],
   "dependencies": {
-    "jstransformer": "^0.0.2"
+    "jstransformer": "^0.0.3"
   },
   "devDependencies": {
-    "jstransformer-octet": "^0.0.1",
+    "jstransformer-octet": "^0.1.1",
     "test-jstransformer": "^1.0.0"
   },
   "scripts": {
@@ -23,6 +23,9 @@
     "type": "git",
     "url": "https://github.com/jstransformers/jstransformer-jstransformer.git"
   },
-  "author": "Rob Loach <robloach@gmail.com>",
+  "author": {
+    "name": "JSTransformers Team",
+    "url": "http://github.com/orgs/jstransformers/people"
+  },
   "license": "MIT"
 }

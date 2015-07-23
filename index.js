@@ -18,14 +18,14 @@ function getTransform (options) {
   else {
     throw new Error("options.engine not found.");
   }
-};
+}
 
 /**
  * Constructs a new JSTransformer from the given options.
  */
 function constructTransformer (options) {
   return jstransformer(require('jstransformer-' + getTransform(options)));
-};
+}
 
 exports.render = function (str, options, locals) {
   return constructTransformer(options).render(str, options, locals || {});
@@ -41,4 +41,20 @@ exports.renderAsync = function (str, options, locals) {
 
 exports.renderFileAsync = function (file, options, locals) {
   return constructTransformer(options).renderFileAsync(file, options, locals || {});
+};
+
+exports.compile = function (str, options) {
+  return constructTransformer(options).compile(str, options);
+};
+
+exports.compileAsync = function (str, options) {
+  return constructTransformer(options).compileAsync(str, options);
+};
+
+exports.compileFile = function (str, options) {
+  return constructTransformer(options).compileFile(str, options);
+};
+
+exports.compileFileAsync = function (str, options) {
+  return constructTransformer(options).compileFileAsync(str, options);
 };
