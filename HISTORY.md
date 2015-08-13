@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.1.2: 2015-08-13
+
+- Updated dependencies
+- Updated Boilerplate
+
 ## v1.1.1: 2015-07-23
 
 - Added compile support
