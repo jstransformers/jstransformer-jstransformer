@@ -12,8 +12,8 @@
     "jstransformer": "^0.0.3"
   },
   "devDependencies": {
-    "jstransformer-octet": "^0.1.1",
-    "test-jstransformer": "^1.0.0"
+    "jstransformer-octet": "^1.0.0",
+    "test-jstransformer": "^1.0.1"
   },
   "scripts": {
     "test": "test-jstransformer",
