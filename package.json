@@ -12,7 +12,7 @@
     "index.js"
   ],
   "devDependencies": {
-    "jstransformer-octet": "^1.0.0",
+    "jstransformer-octet": "^2.0.0",
     "test-jstransformer": "^1.0.1"
   },
   "scripts": {
