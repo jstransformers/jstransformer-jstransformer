@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.1.3: 2016-06-02
+
+- Fixed async callback function arguments
+- Updated Boilerplate
+
 ## v1.1.2: 2015-08-13
 
 - Updated dependencies

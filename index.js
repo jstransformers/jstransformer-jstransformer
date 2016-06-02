@@ -35,26 +35,26 @@ exports.renderFile = function (file, options, locals) {
   return constructTransformer(options).renderFile(file, options, locals || {});
 };
 
-exports.renderAsync = function (str, options, locals) {
-  return constructTransformer(options).renderAsync(str, options, locals || {});
+exports.renderAsync = function (str, options, locals, callback) {
+  return constructTransformer(options).renderAsync(str, options, locals || {}, callback);
 };
 
-exports.renderFileAsync = function (file, options, locals) {
-  return constructTransformer(options).renderFileAsync(file, options, locals || {});
+exports.renderFileAsync = function (file, options, locals, callback) {
+  return constructTransformer(options).renderFileAsync(file, options, locals || {}, callback);
 };
 
 exports.compile = function (str, options) {
   return constructTransformer(options).compile(str, options);
 };
 
-exports.compileAsync = function (str, options) {
-  return constructTransformer(options).compileAsync(str, options);
+exports.compileAsync = function (str, options, callback) {
+  return constructTransformer(options).compileAsync(str, options, callback);
 };
 
 exports.compileFile = function (str, options) {
   return constructTransformer(options).compileFile(str, options);
 };
 
-exports.compileFileAsync = function (str, options) {
-  return constructTransformer(options).compileFileAsync(str, options);
+exports.compileFileAsync = function (str, options, callback) {
+  return constructTransformer(options).compileFileAsync(str, options, callback);
 };
