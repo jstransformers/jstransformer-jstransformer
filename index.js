@@ -22,8 +22,10 @@ function getTransform(options) {
  */
 function constructTransformer(options) {
   var transform = getTransform(options)
-  var jstransform = require('jstransformer-' + transform)  // eslint-disable-line import/no-dynamic-require
-  return jstransformer(jstransform)
+  if (transform && typeof transform === 'object') {
+    return jstransformer(transform)
+  }
+  return jstransformer(require('jstransformer-' + transform))
 }
 
 exports.render = function (str, options, locals) {
