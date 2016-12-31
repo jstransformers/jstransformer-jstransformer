@@ -22,6 +22,8 @@ var jstransformer = require('jstransformer')(require('jstransformer-jstransforme
 
 var options = {
   engine: 'handlebars'
+  // or
+  // engine: require('jstransformer-handlebars')
 };
 var locals = {
   title: 'Hello World!'
