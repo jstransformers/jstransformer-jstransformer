@@ -5,9 +5,8 @@
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-jstransformer/master.svg)](https://travis-ci.org/jstransformers/jstransformer-jstransformer)
 [![Coverage Status](https://img.shields.io/codecov/c/github/jstransformers/jstransformer-jstransformer/master.svg)](https://codecov.io/gh/jstransformers/jstransformer-jstransformer)
 [![Dependency Status](https://img.shields.io/david/jstransformers/jstransformer-jstransformer/master.svg)](http://david-dm.org/jstransformers/jstransformer-jstransformer)
+[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-jstransformer.svg)](https://greenkeeper.io/)
 [![NPM version](https://img.shields.io/npm/v/jstransformer-jstransformer.svg)](https://www.npmjs.org/package/jstransformer-jstransformer)
-
-![YO DAWG](screenshot.jpg?raw=true "YO DAWG")
 
 ## Installation
 

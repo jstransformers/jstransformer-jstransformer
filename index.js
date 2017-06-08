@@ -1,6 +1,6 @@
 'use strict'
 
-var jstransformer = require('jstransformer')
+const jstransformer = require('jstransformer')
 
 exports.name = 'jstransformer'
 exports.outputFormat = 'html'
@@ -21,7 +21,7 @@ function getTransform(options) {
  * Constructs a new JSTransformer from the given options.
  */
 function constructTransformer(options) {
-  var transform = getTransform(options)
+  const transform = getTransform(options)
   if (transform && typeof transform === 'object') {
     return jstransformer(transform)
   }
