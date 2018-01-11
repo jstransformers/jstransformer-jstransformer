@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.1.5: 2018-01-11
+
+- Updated Boilerplate
+
 ## v1.1.4: 2016-12-05
 
 - Updated Boilerplate
