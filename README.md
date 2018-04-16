@@ -8,6 +8,8 @@
 [![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-jstransformer.svg)](https://greenkeeper.io/)
 [![NPM version](https://img.shields.io/npm/v/jstransformer-jstransformer.svg)](https://www.npmjs.org/package/jstransformer-jstransformer)
 
+![I heard you like JSTransformers, so I put JSTransformers in your JSTransformers](screenshot.jpg)
+
 ## Installation
 
     npm install jstransformer-jstransformer
