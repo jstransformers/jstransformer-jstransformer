@@ -12,9 +12,11 @@ function getTransform(options) {
   if (typeof options === 'string' || options instanceof String) {
     return options
   }
+
   if (typeof options === 'object' && options.engine) {
     return options.engine
   }
+
   throw new Error('options.engine not found.')
 }
 
@@ -26,7 +28,8 @@ function constructTransformer(options) {
   if (transform && typeof transform === 'object') {
     return jstransformer(transform)
   }
-  return jstransformer(require('jstransformer-' + transform)) // eslint-disable-line import/no-dynamic-require
+
+  return jstransformer(require('jstransformer-' + transform))
 }
 
 exports.render = function (str, options, locals) {
